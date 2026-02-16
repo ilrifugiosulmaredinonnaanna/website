@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il rifugio sul mare di Nonna Anna</title>
+    <link rel="icon" type="image/x-icon" href="images/Gemini_Generated_Image_ucclkoucclkouccl.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">IL RIFUGIO SUL MARE DI<span> NONNA ANNA</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="camere.html">Camere</a></li>
+                <li><a href="servizi.html">Servizi</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+
+<section class="gallery-section">
+    <div class="container">
+        <div class="gallery-intro">
+            <h2>Esplora gli spazi</h2>
+            <p>Dall'ingresso luminoso al giardino privato, ogni dettaglio è curato per il tuo relax.</p>
+        </div>
+
+        <div class="photo-grid">
+            <div class="photo-item large" onclick="openLightbox('ingresso')">
+                <img src="images/ingresso1.jpg" alt="Ingresso">
+                <div class="photo-label">Ingresso (Clicca per vedere tutte le foto)</div>
+            </div>
+
+            <div class="photo-item" onclick="openLightbox('camera1')">
+                <img src="images/camera1.jpg" alt="Camera 1">
+                <div class="photo-label">Camera 1 (Clicca per vedere tutte le foto)</div>
+            </div>
+
+            <div class="photo-item" onclick="openLightbox('camera2')">
+                <img src="images/camera2.jpg" alt="Camera 2">
+                <div class="photo-label">Camera 2 (Clicca per vedere tutte le foto)</div>
+            </div>
+
+            <div class="photo-item" onclick="openLightbox('camera3')">
+                <img src="images/camera3.png" alt="Camera 3">
+                <div class="photo-label">Camera 3 (Clicca per vedere tutte le foto)</div>
+            </div>
+
+            <div class="photo-item" onclick="openLightbox('bagno')">
+                <img src="images/bagno.jpg" alt="Bagno">
+                <div class="photo-label">Il Bagno (Clicca per vedere tutte le foto)</div>
+            </div>
+
+            <div class="photo-item" onclick="openLightbox('giardino')">
+                <img src="images/giardino1.jpg" alt="Giardino">
+                <div class="photo-label">Il Giardino (Clicca per vedere tutte le foto)</div>
+            </div>
+
+            <div class="photo-item" onclick="openLightbox('balcone')">
+                <img src="images/balcone1.jpg" alt="Balcone">
+                <div class="photo-label">Vista Balcone (Clicca per vedere tutte le foto)</div>
+            </div>
+
+        </div>
+
+        <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="">
+        <div class="lightbox-nav">
+            <button onclick="prevImg()">&#10094;</button>
+            <button onclick="nextImg()">&#10095;</button>
+        </div>
+    </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-content">
+        <div class="container-small">
+            <div class="service-block">
+                <p>La camera singola curata al femminile, un luogo che parla accoglienza e delicatezza. Ci siamo innamorate dei letti in ferro battuto, simbolo di eleganza senza tempo e li abbiamo scelti per le camere da letto coordinandoli con specchio in ferro battuto che riflettono la luce e il mare.</p>
+            </div>
+        </div>
+
+        <div class="container-small">
+            <div class="service-block">
+                <p>La cucina è una Scavolini, collocata in un grande ambiente destinato a cucina abitabile ampio quanto due camere da letto. E' uno spazio conviviale, luminoso che si affaccia su un bellissimo giardino.</p>
+            </div>
+        </div>
+
+        <div class="container-small">
+            <div class="service-block">
+                <p>Un giardino che mamma ha sempre curato personalmente con i fiori e attenzioni quotidiane e che ancora oggi conserva il suo tocco emozionante.</p>
+            </div>
+        </div>
+
+        <div class="container-small">
+            <div class="service-block">
+                <p>L'appartamento regala un affaccio spettacolare sul mare di Trani; uno sguardo che corre all'infinito senza ostacoli, visibile dal balcone e dagli spazi comuni.</p>
+            </div>
+        </div>
+
+        <div class="container-small">
+            <div class="service-block">
+                <p>La camera singola gode del balcone con affaccio direttamente sul mare permettendo di sentire e respirare la sua presenza costante.</p>
+            </div>
+        </div>
+
+        <div class="container-small">
+            <div class="service-block">
+                <p>Aprendo il cancello del giardino in soli 50 metri si raggiunge la spiaggia di Trani: un mare dai colori splendidi, accessibile sia come spiaggia libera sia con stabilimenti attrezzati con lettini e ombrelloni.</p>
+            </div>
+        </div>
+
+        <div class="container-small">
+            <div class="service-block">
+                <p>Di sera queste spiagge si trasformano in luoghi di incontro e divertimento, con pub e pizzerie sul mare che organizzano eventi, musica e serate danzanti, frequentati da giovani e adulti, tra cocktail, sorrisi e leggerezza estiva.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <a href="https://wa.me/393474814990" class="whatsapp-btn" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+
+    
+
+    <footer>
+    <div class="footer-content">
+        <p>&copy; 2025 IL RIFUGIO SUL MARE DI NONNA ANNA. Tutti i diritti riservati.</p>
+        <div class="social-icons">
+            <small>Seguici su: Instagram | Facebook</small>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
